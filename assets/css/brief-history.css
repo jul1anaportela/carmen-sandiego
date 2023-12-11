@@ -1,0 +1,31 @@
+#brief-history > .container {
+    display: flex;
+    align-items: center;
+    padding: 5% 2%;
+}
+
+#text-brief-history {
+    font-size: 2em;
+}
+
+.highlight {
+    color: #CF201C;
+    font-weight: bold;
+}
+
+/* Estilos para dispositivos menores que md (medium) */
+@media (max-width: 767px) {
+    #brief-history > .container {
+        display: block;
+    }
+
+    #img-brief-history img {
+        width: 100%;
+    }
+
+    #text-brief-history {
+        width: 100%;
+        text-align: justify;
+    }
+   
+}

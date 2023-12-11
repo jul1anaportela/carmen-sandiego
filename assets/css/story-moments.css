@@ -1,0 +1,80 @@
+#story-moments .container-story-moments {
+    display: flex;
+}
+
+.description-card {
+    background-color: #202020;
+
+}
+
+.description-card h2, 
+.description-card .current-counting {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.description-card h5,
+.description-card .total-count {
+    text-transform: uppercase;
+    color: #CF201C;
+    font-weight: bold;
+}
+
+
+.description-card .current-counting {
+    font-size: 1.5em;
+}
+
+
+.description-card h2{
+    margin-top: 20%;
+}
+
+.description-card p {
+    color: #f0f0f0;
+    /* font-size: 1.5em; */
+    margin-top: 5%;
+}
+
+.dimention {
+    width: 800px;
+}
+
+.nav-tabs{
+    border: none;
+    padding: 2%;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #fff;
+    border: none;
+    border-top: 3px solid #CF201C;
+    border-radius: 1px;
+}
+
+.nav-tabs .nav-link {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover{
+    border: transparent;
+    border-top: 3px solid #CF201C;
+    border-radius: 1px;
+}
+
+/* Estilos para dispositivos maiores que md (medium) */
+@media (min-width: 768px) {
+    
+}
+
+/* Estilos para dispositivos menores que md (medium) */
+@media (max-width: 767px) {
+
+    .dimention {
+       width: 500px;
+    }
+}

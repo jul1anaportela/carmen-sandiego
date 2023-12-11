@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+}
+
+#cabecalho {
+    background-color: #202020;
+}
+
+header > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-cabecalho {
+    border-bottom: 0.3px solid #f0f0f0;
+
+}
+
+#logo-cabecalho > img {
+    padding: 0 45%;
+}
+
+#menu-principal  {
+    padding: 0 38%;
+}
+
+#menu-principal .nav-link {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#menu-principal .nav-link:hover {
+    color: #CF201C;
+}
+
+@media (max-width: 767px) {
+    header > .container {
+        display: block;
+    }
+
+    #menu-principal  {
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #logo-cabecalho > img {
+        padding: 0 38%;
+    }
+}

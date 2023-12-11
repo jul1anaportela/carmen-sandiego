@@ -1,0 +1,15 @@
+#carmen-footer {
+    background-color: #202020;
+    padding-top: 2%;
+}
+
+#carmen-footer img {
+    padding-left: 40%;
+}
+
+/* Estilos para dispositivos menores que md (medium) */
+@media (max-width: 767px) {
+    #carmen-footer img {
+        padding-left:20% ;
+    }
+}
