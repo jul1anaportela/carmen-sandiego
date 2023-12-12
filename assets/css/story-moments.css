@@ -66,13 +66,32 @@
     border-radius: 1px;
 }
 
-/* Estilos para dispositivos maiores que md (medium) */
-@media (min-width: 768px) {
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .description-card h5 {
+        font-size: 12px;
+    }
+
+    .description-card h2 {
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .description-card p {
+        font-size: 10px;
+    }
     
+    .nav-story-moments a {
+        font-size: 10px;
+    }
+
+    .dimention {
+        width: 460px;
+    }
 }
 
 /* Estilos para dispositivos menores que md (medium) */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .dimention {
        width: 500px;

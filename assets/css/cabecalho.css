@@ -34,7 +34,7 @@ header > .container {
     color: #CF201C;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     header > .container {
         display: block;
     }
@@ -47,5 +47,16 @@ header > .container {
 
     #logo-cabecalho > img {
         padding: 0 38%;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #logo-cabecalho > img {
+        padding: 0 42%;
+    }
+    #menu-principal  {
+        text-align: center;
+        padding: 0 40%;
     }
 }
