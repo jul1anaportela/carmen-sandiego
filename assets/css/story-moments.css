@@ -96,4 +96,15 @@
     .dimention {
        width: 500px;
     }
+
+    .description-card h5, .description-card .total-count {
+        font-size: 1em;
+    }
+    .description-card h2{
+        margin-top: 5%;
+        font-size: 1em;
+    }
+    .description-card p {
+        margin-top: 2%;
+    }
 }

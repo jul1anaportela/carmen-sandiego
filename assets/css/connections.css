@@ -36,3 +36,14 @@
 .card-body h4 {
     text-transform: uppercase;
 }
+
+/* Estilos para dispositivos menores que md (medium) */
+@media screen and (max-width: 767px) {
+    #conections span {        
+        font-size: 1em;       
+    }
+    #conections h2 {
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+}
